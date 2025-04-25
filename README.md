@@ -17,9 +17,7 @@ Tested with a dataset of **20,000 URLs**:
   - Rust: 9 ms ✅
 - **URL Pattern Matching**:
   - Kotlin: 18 ms
-  - Rust: 12 ms (further optimization possible for string handling) ⚡
-
-> **Note**: The Rust implementation currently uses string creation, which involves allocation/deallocation. Future optimizations (e.g., using a `StringBuilder`-like approach) could further improve performance.
+  - Rust: 10 ms ✅
 
 ## 🛠️ Use Case Example
 
